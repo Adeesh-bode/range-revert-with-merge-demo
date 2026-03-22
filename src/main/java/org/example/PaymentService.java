@@ -9,6 +9,7 @@ public class PaymentService {
             try {
                 // Refactored logic
                 System.out.println("Logging Payment Process");
+                System.out.println("Logging MORE Payment Process");
                 return "Payment Processing v2 - COMPLETED";
             } catch (Exception e) {
                 // retry
