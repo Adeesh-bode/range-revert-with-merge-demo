@@ -8,6 +8,7 @@ public class PaymentService {
         while (retry-- > 0) {
             try {
                 // Refactored logic
+                System.out.println("Logging Payment Process");
                 return "Payment Processing v2 - COMPLETED";
             } catch (Exception e) {
                 // retry
